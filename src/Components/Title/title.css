@@ -1,0 +1,27 @@
+:root {
+  --background-color: #252525;
+  --primary-color: #eac228;
+  --secondary-color: #cbcbcb;
+  --text: #252525;
+  --input: #eaeaea;
+}
+
+.title {
+  display: block;
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-top: 0;
+  width: 60rem;
+  margin-left: 10vw;
+}
+
+.title > p {
+  color: var(--secondary-color);
+  padding: none;
+  margin: none;
+  display: inline;
+}
+
+.yellow {
+  color: #eac228;
+}
