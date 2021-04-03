@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Title from './Components/Title/title';
 import Contact from './Components/Contact/contact';
+import Editor from './Components/Editor/editor';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <React.Fragment>
         <Title />
         <Contact />
+        <Editor />
       </React.Fragment>
     );
   }
