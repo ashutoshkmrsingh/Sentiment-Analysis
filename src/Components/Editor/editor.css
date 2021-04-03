@@ -10,8 +10,6 @@
 }
 
 .editor {
-  width: 100vw;
-  height: 60vh;
   margin-top: 5vh;
   width: 80vw;
   height: 50vh;
@@ -31,7 +29,7 @@
   box-shadow: 0px 0px 20px #000000;
   overflow: hidden;
   overflow-y: scroll;
-  margin-left: 22vw;
+  margin-left: 20vw;
 }
 
 input:focus,
