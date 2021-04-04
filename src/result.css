@@ -1,0 +1,12 @@
+:root {
+    --background-color: #252525;
+    --primary-color: #EAC228;
+    --secondary-color: #CBCBCB;
+    --text: #252525;
+    --input: #EAEAEA;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  

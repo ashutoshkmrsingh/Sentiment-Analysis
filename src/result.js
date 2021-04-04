@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import './App.css';
+import './result.css';
 import Title from './Components/Title/title';
 import Contact from './Components/Contact/contact';
-import Editor from './Components/Editor/editor';
 import Button from './Components/Button/button';
-import Dropdown from './Components/Dropdown/dropdown';
 
 class App extends Component {
   state = {
-    result: false 
+    result: false,
+    input_text: 'I am Ashutosh Singh',
   }
 
   viewResult = (params) => {
-    console.log('view result');
+    console.log('IN result');
   }
 
   render() {
@@ -20,9 +19,7 @@ class App extends Component {
       <React.Fragment>
         <Title />
         <Contact />
-        <Editor />
-        <Dropdown />
-        <Button text='check now' function={ 
+        <Button text='back' function={ 
           () => this.viewResult()
          }/>
       </React.Fragment>
