@@ -5,6 +5,7 @@ import Contact from './Components/Contact/contact';
 import Button from './Components/Button/button';
 import Textbox from './Components/Textbox/textbox';
 import Notify from './Components/Notify/notify';
+import PieChart from './Components/Piechart/piechart';
 
 class App extends Component {
   state = {
@@ -22,6 +23,7 @@ class App extends Component {
         <Title />
         <Contact />
         <Textbox input={ this.state.input_text }/>
+        <PieChart />
         <Notify text='Chart is prepared using' link='https://react-google-charts.com/' />
         <Button text='back' function={ 
           () => this.viewResult()

@@ -7,9 +7,9 @@ class Textbox extends Component {
     }
 
     render() {
-        return(
+        return (
             <div className='textbox'>
-            <p className='text'>{ this.state.text }</p>
+                <p className='text'>{this.state.text}</p>
             </div>
         );
     }
