@@ -6,11 +6,16 @@ import Button from './Components/Button/button';
 import Textbox from './Components/Textbox/textbox';
 import Notify from './Components/Notify/notify';
 import PieChart from './Components/Piechart/piechart';
+import BarChart from './Components/Barchart/barchart';
 
 class App extends Component {
   state = {
     result: false,
     input_text: 'I am Ashutosh Singh',
+    score: {
+        positive: 73,
+        negative: 27
+    }
   }
 
   viewResult = (params) => {
@@ -23,8 +28,9 @@ class App extends Component {
         <Title />
         <Contact />
         <Textbox input={ this.state.input_text }/>
-        <PieChart />
+        <PieChart positive={ this.state.score.positive } negative={ this.state.score.negative }/>
         <Notify text='Chart is prepared using' link='https://react-google-charts.com/' />
+        <BarChart />
         <Button text='back' function={ 
           () => this.viewResult()
          }/>

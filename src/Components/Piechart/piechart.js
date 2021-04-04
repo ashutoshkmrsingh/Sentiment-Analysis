@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import './piechart.css';
 
 class PieChart extends Component {
+    positive = this.props.positive;
+    negative = this.props.negative;
+
     render() {
         return (
             <div className='pie-chart'>
@@ -13,8 +16,8 @@ class PieChart extends Component {
                     loader={<div>Loading Chart</div>}
                     data={[
                         ['Sentiment', 'Score'],
-                        ['Positive', 11],
-                        ['Negative', 2],
+                        ['Positive', this.positive],
+                        ['Negative', this.negative],
                     ]}
                     options={{
                         is3D: true,

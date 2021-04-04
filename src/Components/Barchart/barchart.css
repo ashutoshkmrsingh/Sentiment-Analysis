@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap");
+
+:root {
+  --background-color: #252525;
+  --primary-color: #eac228;
+  --secondary-color: #cbcbcb;
+  --text: #252525;
+  --input: #eaeaea;
+}
+
+.barchart {
+        display: flex;
+        align-items: center;
+        margin-left: 10vw;
+}
