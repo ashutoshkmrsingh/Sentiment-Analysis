@@ -3,7 +3,8 @@ import './App.css';
 import Title from './Components/Title/title';
 import Contact from './Components/Contact/contact';
 import Editor from './Components/Editor/editor';
-import Button from './Components/Button/button'
+import Button from './Components/Button/button';
+import Dropdown from './Components/Dropdown/dropdown';
 
 class App extends Component {
   state = {
@@ -20,6 +21,7 @@ class App extends Component {
         <Title />
         <Contact />
         <Editor />
+        <Dropdown />
         <Button text='check now' function={ 
           () => this.viewResult()
          }/>
