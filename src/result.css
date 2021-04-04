@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap");
+
 :root {
-    --background-color: #252525;
-    --primary-color: #EAC228;
-    --secondary-color: #CBCBCB;
-    --text: #252525;
-    --input: #EAEAEA;
-  }
-  
-  .App {
-    text-align: center;
-  }
-  
+  --background-color: #252525;
+  --primary-color: #eac228;
+  --secondary-color: #cbcbcb;
+  --text: #252525;
+  --input: #eaeaea;
+}
+
+.App {
+  text-align: center;
+}

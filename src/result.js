@@ -3,6 +3,8 @@ import './result.css';
 import Title from './Components/Title/title';
 import Contact from './Components/Contact/contact';
 import Button from './Components/Button/button';
+import Textbox from './Components/Textbox/textbox';
+import Notify from './Components/Notify/notify';
 
 class App extends Component {
   state = {
@@ -19,6 +21,8 @@ class App extends Component {
       <React.Fragment>
         <Title />
         <Contact />
+        <Textbox input={ this.state.input_text }/>
+        <Notify text='Chart is prepared using' link='https://react-google-charts.com/' />
         <Button text='back' function={ 
           () => this.viewResult()
          }/>

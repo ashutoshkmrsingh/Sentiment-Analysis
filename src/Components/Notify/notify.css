@@ -1,0 +1,20 @@
+:root {
+  --background-color: #252525;
+  --primary-color: #eac228;
+  --secondary-color: #cbcbcb;
+  --text: #252525;
+  --input: #eaeaea;
+  --editor: #4b4b4b;
+}
+
+.notify {
+  color: var(--primary-color);
+  font-family: "Quicksand", sans-serif;
+  margin-left: 18vw;
+  display: inline-block;
+}
+
+.notify a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
