@@ -22,7 +22,6 @@ class Dropdown extends Component {
             <div className='dropdown-wrapper'>
                 <select 
                     className='dropdown' 
-                    value={ this.state.default }
                     onChange={ this.dropdownHandler }>
                     {
                         this.state.options.map((option, index) => {
