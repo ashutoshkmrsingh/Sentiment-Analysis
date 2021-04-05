@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './result.css';
-import Title from './Components/Title/title';
-import Contact from './Components/Contact/contact';
-import Button from './Components/Button/button';
-import Textbox from './Components/Textbox/textbox';
-import Notify from './Components/Notify/notify';
-import PieChart from './Components/Piechart/piechart';
-import BarChart from './Components/Barchart/barchart';
+import Title from '../Title/title';
+import Contact from '../Contact/contact';
+import Button from '../Button/button';
+import Textbox from '../Textbox/textbox';
+import Notify from '../Notify/notify';
+import PieChart from '../Piechart/piechart';
+import BarChart from '../Barchart/barchart';
 
 class App extends Component {
   state = {
