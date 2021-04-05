@@ -17,7 +17,7 @@ class BarChart extends Component {
         return (
             <div className='barchart'>
                 <Chart
-                    width={'40vw'}
+                    width={'35vh'}
                     height={'25vh'}
                     chartType="Bar"
                     loader={<div>Loading Chart</div>}

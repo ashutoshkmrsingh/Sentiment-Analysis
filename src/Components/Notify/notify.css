@@ -18,3 +18,10 @@
   text-decoration: none;
   color: var(--primary-color);
 }
+
+@media (max-width: 600px) {
+  .notify {
+    font-size: 10px;
+    margin-left: 10vw;
+  }
+}

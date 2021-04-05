@@ -49,3 +49,17 @@ select:focus {
 ::-webkit-scrollbar-thumb:hover {
   background: #000000;
 }
+
+@media (max-width: 600px) {
+  .textbox {
+    margin-top: 2vh;
+    width: 80vw;
+    height: 25vh;
+    align-items: center;
+    display: inline-block;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+}
