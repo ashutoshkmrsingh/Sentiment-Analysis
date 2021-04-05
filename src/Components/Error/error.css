@@ -1,0 +1,17 @@
+:root {
+  --background-color: #252525;
+  --primary-color: #eac228;
+  --secondary-color: #cbcbcb;
+  --text: #252525;
+  --input: #eaeaea;
+}
+
+.home {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
