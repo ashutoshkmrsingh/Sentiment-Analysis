@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import Home from '../src/Components/Home/home';
-// import Result from '../src/Components/Result/result'
+import Router from './Route/path';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Home />
+        <Router />
       </React.Fragment>
     );
   }
