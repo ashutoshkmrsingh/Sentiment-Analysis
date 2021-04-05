@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Title />
+        <Title /> 
         <Contact />
         <Textbox input={ this.state.input_text }/>
         <PieChart positive={ this.state.score.positive } negative={ this.state.score.negative }/>

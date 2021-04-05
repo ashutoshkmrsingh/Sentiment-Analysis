@@ -1,12 +1,12 @@
 :root {
   --background-color: #252525;
-  --primary-color: #EAC228;
-  --secondary-color: #CBCBCB;
+  --primary-color: #eac228;
+  --secondary-color: #cbcbcb;
   --text: #252525;
-  --input: #EAEAEA;
+  --input: #eaeaea;
 }
 
-.App {
+.home {
   text-align: center;
   font-family: "Quicksand", sans-serif;
 }
