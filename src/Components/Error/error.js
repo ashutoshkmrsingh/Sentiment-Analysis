@@ -10,7 +10,7 @@ const Error = () => {
     <React.Fragment>
       <Title />
       <Contact />
-      <Notify text="Page Not Found" />
+      <Notify text="Page Not Found" fontsize="18vh"/>
       <a href="/">
         <Button text="back" function={() => this.viewResult()} />
       </a>
